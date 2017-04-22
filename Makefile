@@ -7,7 +7,7 @@ client :
 	g++ -I$(BOOST_ROOT) $(COMPILER_OPTS) -o bin/client src/client_main.cpp src/User.cpp
 
 server :
-	g++ -I$(BOOST_ROOT) $(COMPILER_OPTS) -o bin/server src/server_main.cpp src/Server.cpp src/Client.cpp
+	g++ -I$(BOOST_ROOT) $(COMPILER_OPTS) -o bin/server src/server_main.cpp src/Server.cpp src/Client.cpp src/Connection.cpp
 
 clean :
 	rm bin/*
