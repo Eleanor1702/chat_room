@@ -48,3 +48,15 @@ void User::req_server_credentials() {
         boost::trim(this->server_port);
     }
 }
+
+void User::chat() {
+    std::cout <<"Welcome to ChatRoom..." << std::endl;
+    std::getline (std::cin, this->msg);
+
+    while(this->msg != ".exit") {
+        std::getline(std::cin, this->msg);
+    }
+
+    exit(0);
+    //IP,Port,username löschen von liste
+}
