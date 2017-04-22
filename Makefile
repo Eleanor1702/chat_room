@@ -1,5 +1,5 @@
 BOOST_ROOT = /usr/local/include/boost_1_64_0
-COMPILER_OPTS = -std=c++11
+COMPILER_OPTS = -std=c++11 -lboost_system
 
 compile : client server
 
