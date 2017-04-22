@@ -1,7 +1,6 @@
-#include <iostream>
+#include "../header/User.h"
 
 int main() {
-    std::cout <<"Hello Client" << std::endl;
 
     return 0;
 }
